@@ -1,0 +1,68 @@
+body {
+    background-color: #24292e;
+}
+
+.pagehead {
+    background-color: #181b1e !important;
+    border: 0;
+}
+
+.Header {
+    background-color: #14171a;
+}
+
+.reponav-item.selected {
+    background-color: #24292e;
+    border-left: 0;
+    border-right: 0;
+    color: #fff;
+}
+
+.btn {
+    background-image: none;
+    background-color: #23262a;
+    color: #fff;
+}
+
+.social-count {
+    background-color: #323537;
+    color: #fff;
+}
+
+.Box {
+    background-color: #181b1e !important;
+    color: #fff;
+    border-color: #181b1e;
+}
+
+.bg-blue-light,
+.Box-header {
+    border-bottom: 1px solid #24292e;
+    background-color: #14171a !important;
+    color: #fff;
+    border-color: #24292e;
+}
+
+.blob-num {
+    color: #fff;
+}
+
+.link-gray-dark {
+    color: #fff !important;
+}
+
+.link-gray {
+    color: #979797 !important;
+}
+
+a {
+    color: #64a5f0;
+}
+
+.border-gray-light {
+    border: 0 !important;
+}
+
+.highlight {
+    filter: brightness(2);
+}
