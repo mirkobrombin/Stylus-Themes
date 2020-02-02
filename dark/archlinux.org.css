@@ -1,9 +1,36 @@
 body,
+input,
+select,
+div#showvotes,
+div.box,
+p.box,
+table.userlist,
+div#menu,
+div#pm-menu,
+div#search,
+div#tasklist,
+div#taskdetails,
+div.redirectmessage,
+table.history,
+div.popup,
+div.denyform,
+fieldset,
+div.tbuttons,
+div.tab,
+.pun,
+.pun .blocktable th,
+.pun .blocktable .box,
+textarea,
 #toc,
+.pun .blockpost h2,
+.pun .blockpost,
 .toc,
 .mw-warning,
+#pkgdetails #detailslinks > div,
 .toccolours,
-.catlinks {
+.catlinks,
+.results tr:nth-child(odd),
+#article-list tr:nth-child(odd) {
     background-color: #202020;
     border: 0;
     color: #959595;
@@ -11,7 +38,26 @@ body,
 
 div.vectorTabs li.selected,
 #content,
-.wikitable {
+.pun .blockpost .postbody,
+.pun .blockpost .postfoot,
+.pun .punwrap,
+#brdmenu,
+#brdmenu a,
+#brdmenu a:link,
+#brdmenu a:visited,
+#brdwelcome,
+.wikitable,
+.results tr:nth-child(even),
+#article-list tr:nth-child(even),
+.results th,
+input.text,
+input.password,
+input.file,
+textarea,
+select,
+.date,
+.date:hover,
+span.autocomplete {
     background: #282828;
     border: 0;
 }
@@ -33,8 +79,13 @@ div.vectorTabs li.selected {
 #content h5,
 #content pre,
 #content code,
-#content tt {
-    color: #fff;
+#content tt,
+.pun .quotebox,
+.pun .postmsg,
+#punhelp code,
+#punhelp samp,
+#news h3 a {
+    color: #fff !important;
 }
 
 #content a:not(.new),
@@ -42,13 +93,11 @@ div.vectorTabs li.selected {
 #mw-panel li:not(.new) a:not(.new),
 #column-one li:not(.new) a:not(.new),
 #footer a:not(.new) {
-    color: #00a2ff !important;
+    color: #00a2ff;
 }
 
-.tocnumber {
-    color: #fff;
-}
-
+.tocnumber,
+.pun .codebox,
 .mw-body,
 .parsoid-body {
     color: #fff;
@@ -58,7 +107,8 @@ div.vectorTabs li.selected {
     display: none;
 }
 
-#simpleSearch {
+#simpleSearch,
+div#tasklist table td {
     background: none;
     border: 0;
 }
@@ -70,7 +120,10 @@ div.vectorTabs li.selected {
 div.archwiki-template-box.archwiki-template-box-note,
 #content pre,
 #content code,
-#content tt {
+#content tt,
+.pun .quotebox,
+.pun .codebox,
+div.box {
     background-color: #1b191e;
     border: 0;
 }
@@ -88,7 +141,8 @@ div.archwiki-template-box.archwiki-template-box-tip {
 .wikitable > tr > th,
 .wikitable > tr > td,
 .wikitable > * > tr > th,
-.wikitable > * > tr > td {
+.wikitable > * > tr > td,
+.pun .blocktable td {
     border-color: #4b4a4a;
 }
 
@@ -101,4 +155,14 @@ div.archwiki-template-box.archwiki-template-box-tip {
 
 .vectorTabs span {
     background-image: none
+}
+
+#article-list tr:hover,
+#clocks-table tr:hover,
+#dev-dashboard tr:hover,
+#dev-todo-lists tr:hover,
+#dev-todo-pkglist tr:hover,
+#pkglist-results tr:hover,
+#stats-area tr:hover {
+    background: #000;
 }
