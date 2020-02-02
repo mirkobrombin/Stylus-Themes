@@ -1,0 +1,269 @@
+.tg_head_split {
+    background: rgb(230,230,230);
+    background: -moz-linear-gradient(top, rgba(230,230,230,1) 0%, rgba(197,197,197,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(230,230,230,1) 0%,rgba(197,197,197,1) 100%);
+    background: linear-gradient(to bottom, rgba(230,230,230,1) 0%,rgba(197,197,197,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', endColorstr='#c5c5c5',GradientType=0 );
+    border-top: 1px solid #9d9d9d;
+    border-left: 1px solid #9d9d9d;
+    border-right: 1px solid #9d9d9d;
+    margin-top: 30px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    position: relative;
+    box-shadow: inset 0px 1px 0px 0px #f8f8f7;
+    /* z-index: 1; */
+    height: 48px;
+}
+
+html {
+    background: #efefef;
+}
+
+.im_page_wrap {
+    border-left: 1px solid #8c8c8c;
+    border-bottom: 1px solid #8c8c8c;
+    border-right: 1px solid #8c8c8c;
+    border-top: 1px solid #858585;
+    margin-bottom: 20px;
+    /* z-index: 999; */
+    position: relative;
+    overflow: initial;
+    margin-top: -1px;
+    box-shadow: 0 3px 8px rgba(0,0,0,.15), 0 3px 6px -3px rgba(0,0,0,.25);
+}
+
+.icon-tg-title {
+    background: none;
+}
+
+.im_dialogs_search {
+    position: relative;
+    top: -38px;
+    margin-left: 61px;
+}
+
+.im_dialogs_panel {
+    padding: 0;
+    height: 0;
+}
+
+.im_dialogs_col_wrap {
+    margin-top: 0px;
+    position: relative;
+    border-right: 1px solid #a6a6a6;
+}
+
+input[type=search] {
+    background: #f6f6f5;
+    border: 1px solid #a9a9a9;
+    box-shadow: inset 0px 2px 7px 0px #dddddd;
+    height: 27px;
+    border-radius: 3px;
+}
+
+.im_dialogs_scrollable_wrap .active a.im_dialog {
+    background-color: #4d9bda;
+}
+
+.im_dialog_photo::after {
+    content: "";
+    display: block;
+    background: transparent;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    bottom: 0;
+    right: 0;
+    border-radius: 100%;
+    box-shadow: inset 0px 2px 0px 0px rgba(255, 255, 255, 0.21);
+}
+
+.im_dialog_peer {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+a.im_dialog .im_short_message_text {
+    font-size: 12px;
+}
+
+.im_dialog_message {
+    margin-top: 0px;
+}
+
+.im_dialogs_scrollable_wrap a.im_dialog {
+    padding: 9px;
+    margin-right: -1px !important;
+    border-bottom: 1px solid #cccccc;
+}
+
+img.im_dialog_photo {
+    position: relative !important;
+    overflow: hidden !important;
+    border: 1px solid rgba(0, 0, 0, 0.17);
+}
+
+
+.im_history_col {
+    background: #e2e2e2;
+}
+
+.im_message_wrap {
+    background: #fff;
+    /* margin-top: 9px; */
+    /* margin-bottom: 8px; */
+    border: 1px solid #c7c7c7;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.09), 0 3px 6px -3px rgba(0, 0, 0, 0);
+    padding: 0px 26px;
+}
+
+.im_message_webpage_wrap {
+    border-left: 1px solid #cecccc;
+}
+
+.im_message_author, .im_message_fwd_author {
+    color: #434343;
+    margin: 1px 0 2px;
+}
+
+.im_message_text {
+    color: #464342;
+}
+
+.dropdown.open .tg_head_btn, .tg_head_btn:hover {
+    background: transparent;
+}
+
+.tg_head_peer_title {
+    color: #606060;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.tg_head_peer_title_wrap .tg_head_btn .tg_head_peer_info {
+    position: relative;
+    top: -1px;
+}
+
+.tg_head_btn {
+    color: grey;
+}
+
+i.icon.icon-search {}
+
+.im_message_unread_split {
+    background: transparent;
+    color: #888888;
+}
+
+.im_dialogs_scrollable_wrap .active a.im_dialog:hover, .im_dialogs_scrollable_wrap .active a.im_dialog_selected {
+    background-color: #4d9bda;
+}
+
+.im_dialogs_scrollable_wrap a.im_dialog:hover, .im_dialogs_scrollable_wrap a.im_dialog_selected {
+    background: transparent;
+}
+
+.im_message_wrap+.im_message_wrap {
+}
+
+.im_history_message_wrap {
+    margin-bottom: -1px;
+}
+
+.im_history_col .nano > .nano-pane > .nano-slider, .contacts_modal_col .nano > .nano-pane > .nano-slider, .sessions_modal_col .nano > .nano-pane > .nano-slider, .stickerset_modal_col .nano > .nano-pane > .nano-slider, .im_dialogs_modal_col .nano > .nano-pane > .nano-slider {
+    border-radius: 10px;
+    width: 3px;
+    background: rgba(0, 0, 0, 0.16);
+}
+
+.im_history_col .nano > .nano-pane, .contacts_modal_col .nano > .nano-pane, .sessions_modal_col .nano > .nano-pane, .stickerset_modal_col .nano > .nano-pane, .im_dialogs_modal_col .nano > .nano-pane {
+    background: transparent;
+}
+
+.im_record {
+    background: transparent;
+}
+
+.im_send_panel_wrap.noselect {
+    background: #fff;
+    /* margin-top: 9px; */
+    /* margin-bottom: 8px; */
+    border: 1px solid #c7c7c7;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.09), 0 3px 6px -3px rgba(0, 0, 0, 0);
+    padding: 20px 26px 0px;
+}
+
+.icon-hamburger-wrap
+ .icon-bar {
+    visibility: hidden;
+}
+
+.icon-hamburger-wrap {
+    background-image: url(http://svgur.com/i/331.svg);
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    margin-top: -8px !important;
+    position: relative;
+    top: 3px;
+}
+
+i.icon.icon-search {
+    background-image: url("http://svgur.com/i/33u.svg");
+    background-size: cover;
+    background-position: 0;
+    height: 24px;
+    width: 24px;
+    margin-top: -6px;
+    position: relative;
+    top: 2px;
+}
+
+.form-control.no_outline:focus {
+    border: 1px solid #5ca8da;
+    box-shadow: inset 0px 2px 7px 0px #dddddd;
+}
+
+a.im_dialog:hover .im_short_message_text, a.im_dialog_selected .im_short_message_text {
+    color: #929292;
+}
+
+.im_dialog_badge {
+    background: #868686;
+    padding: 3px;
+    font-size: 10px;
+    min-width: 16px;
+    line-height: 11px;
+}
+
+.dropdown.open .tg_head_btn, .tg_head_btn:hover {
+    color: #828282;
+}
+
+.tg_head_logo_dropdown.open .dropdown-menu {top: 41px;left: 11px;width: 240px;}
+
+.tg_head_logo_dropdown .dropdown-menu {
+    background-clip: padding-box;
+    background-color: #f5f5f5;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 5px;
+    box-shadow: 0 3px 8px rgba(0,0,0,.15), 0 3px 6px -3px rgba(0,0,0,.25);
+}
+
+.tg_head_logo_dropdown .dropdown-menu > li > a {
+    color: #333;
+    padding: 6px 20px;
+}
+
+.tg_head_logo_dropdown .dropdown-menu > li > a .icon {
+    margin-right: 21px;
+    display: none;
+}
+
+.tg_head_logo_dropdown .dropdown-menu > li > a:hover {
+    background: #d6d6d6;
+}
