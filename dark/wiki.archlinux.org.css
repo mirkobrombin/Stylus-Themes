@@ -1,0 +1,104 @@
+body,
+#toc,
+.toc,
+.mw-warning,
+.toccolours,
+.catlinks {
+    background-color: #202020;
+    border: 0;
+    color: #959595;
+}
+
+div.vectorTabs li.selected,
+#content,
+.wikitable {
+    background: #282828;
+    border: 0;
+}
+
+div.vectorTabs li.selected {
+    padding: 0 9px 1px;
+}
+
+#mw-panel .portal h3 {
+    color: #c2c2c2;
+}
+
+
+#content table,
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content pre,
+#content code,
+#content tt {
+    color: #fff;
+}
+
+#content a:not(.new),
+#mw-navigation li:not(.new) a:not(.new),
+#mw-panel li:not(.new) a:not(.new),
+#column-one li:not(.new) a:not(.new),
+#footer a:not(.new) {
+    color: #00a2ff !important;
+}
+
+.tocnumber {
+    color: #fff;
+}
+
+.mw-body,
+.parsoid-body {
+    color: #fff;
+}
+
+#simpleSearch #searchButton {
+    display: none;
+}
+
+#simpleSearch {
+    background: none;
+    border: 0;
+}
+
+#simpleSearch #searchInput {
+    background-color: #282828;
+}
+
+div.archwiki-template-box.archwiki-template-box-note,
+#content pre,
+#content code,
+#content tt {
+    background-color: #1b191e;
+    border: 0;
+}
+
+div.archwiki-template-box.archwiki-template-box-tip {
+    border: 0;
+    background-color: #215551;
+}
+
+.wikitable > tr > th,
+.wikitable > * > tr > th {
+    background-color: #202020;
+}
+
+.wikitable > tr > th,
+.wikitable > tr > td,
+.wikitable > * > tr > th,
+.wikitable > * > tr > td {
+    border-color: #4b4a4a;
+}
+
+#content a:not(.new):visited,
+#mw-panel li:not(.new) a:not(.new):visited,
+#p-navigation li:not(.new) a:not(.new):visited,
+#p-tb li:not(.new) a:not(.new):visited {
+    color: #8BC34A !important;
+}
+
+.vectorTabs span {
+    background-image: none
+}
