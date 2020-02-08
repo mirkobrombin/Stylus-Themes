@@ -1,0 +1,42 @@
+.navbar-default,
+.paginator,
+.form-control,
+#opinion_form .unauthenticated {
+    background-color: #383b3f;
+    border-color: #383b3f;
+}
+
+body.gnome-body,
+.paginator .number.current,
+.fsui-dropdown-link.selected {
+    background-color: #202224;
+    border-color: #202224;
+}
+
+.paginator .number,
+.fsui-dropdown-link,
+body.gnome-body,
+.paginator .number.current,
+.fsui-dropdown-link.selected,
+.form-control,
+.extension .extension-name a,
+.setting .setting-name a,
+h3,
+dt {
+    color: #fff;
+}
+
+hr {
+    border-color: #383b3f;
+}
+
+#container {
+    color: #898989;
+}
+
+a {
+    color: #6d96d3;
+}
+a:visited {
+    color: #a65bc9;
+}
