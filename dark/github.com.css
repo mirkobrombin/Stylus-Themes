@@ -1605,7 +1605,7 @@ textarea,
 .Box-footer,
 .Box-row,
 .ScreenshotCarousel {
-    background: #25272a !important;
+    background: #28292a !important;
     border-color: #4183c4 !important;
 }
 
@@ -7741,8 +7741,12 @@ span.Label.flex-self-center.Label--outline.border-0.ml-2.bg-gray-2 {
 }
 
 .Header {
-    background-color: #222222;
+    background-color: #1a1919;
 }
 span.language-color {
     opacity: .5;
+}
+
+.graph-before-activity-overview {
+    background-color: #2d2e2e;
 }
