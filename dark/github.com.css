@@ -1728,6 +1728,7 @@ body .bg-white,
 .listgroup-overflow,
 .org-sso-panel {
     background: #1a1a1a !important;
+    border-color: #313338 !important;
 }
 
 .sidebar-module,
