@@ -1,0 +1,21 @@
+html, .content-container, p, a.related-post__content, .sidebar .widget-title, .MostPopular-item, .MostPopular-text, .disqus-widget__content {
+    background-color: #242424;
+    color: #fff;
+}
+
+.page-footer {
+    background-color: #161515;
+    border: 0;
+}
+
+.recommend-post .content-preview-wrapper, .recommend-post .top-comment {
+    color: #818181;
+}
+
+.recommend-post .meta {
+    color: #d7d7d7;
+}
+
+#disqus_thread, .disqus-widget__content:after {
+    display: none;
+}
