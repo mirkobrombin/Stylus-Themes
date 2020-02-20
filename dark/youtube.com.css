@@ -1,0 +1,51 @@
+div#player {
+    box-shadow: 0 0 13px 0 #00000094;
+}
+
+ytd-masthead,
+ytd-app,
+ytd-app[is-watch-page],
+.sbdd_b,
+.sbsb_a,
+.sbsb_b,
+.gsfs,
+.sbfl_b {
+    color: #fff;
+    background: #171717 !important;
+}
+li.sbsb_c.gsfs:hover {
+    background: #282828 !important;
+}
+
+ytd-masthead {
+    border-bottom: 1px solid #ffffff17;
+}
+
+#container.ytd-searchbox,
+#search-input.ytd-searchbox-spt input,
+ytd-searchbox[has-focus] #container.ytd-searchbox,
+.sbdd_b,
+.sbsb_a,
+.sbsb_b,
+.gsfs {
+    border: 0;
+    outline: none !important;
+}
+
+#search-form.ytd-searchbox {
+    border: 1px solid #2c2c2c;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 0 10px;
+    background-color: #121212;
+}
+
+#search-icon-legacy.ytd-searchbox {
+    background-color: transparent;
+    border: 0;
+    width: 30px;
+}
+
+paper-button {
+    border-radius: 3px !important;
+}
