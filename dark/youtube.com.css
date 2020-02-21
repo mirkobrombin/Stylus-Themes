@@ -1,5 +1,11 @@
 div#player {
     box-shadow: 0 0 13px 0 #00000094;
+    overflow: hidden;
+}
+
+img.yt-img-shadow,
+div#player {
+    border-radius: 5px;
 }
 
 ytd-masthead,
@@ -9,7 +15,9 @@ ytd-app[is-watch-page],
 .sbsb_a,
 .sbsb_b,
 .gsfs,
-.sbfl_b {
+.sbfl_b,
+#contentContainer.app-drawer,
+#guide-content.ytd-app {
     color: #fff;
     background: #171717 !important;
 }
@@ -48,4 +56,21 @@ ytd-searchbox[has-focus] #container.ytd-searchbox,
 
 paper-button {
     border-radius: 3px !important;
+}
+
+#text.ytd-channel-name a {
+    font-size: 20px;
+    display: block;
+    line-height: 27px;
+}
+
+ytd-guide-entry-renderer[active],
+#endpoint.yt-simple-endpoint.ytd-guide-entry-renderer:hover,
+#endpoint.yt-simple-endpoint.ytd-guide-entry-renderer:focus {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+div#sections {
+    padding: 0 20px 0 0;
 }
