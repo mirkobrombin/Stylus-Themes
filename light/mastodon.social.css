@@ -1,0 +1,48 @@
+body,
+.tabs-bar__wrapper{background-color: white;padding-top: 7px;}
+
+.audio-player, .column-back-button, .column-header, .box-widget input[type=email], .box-widget input[type=password], .box-widget input[type=text], .box-widget textarea, .compose-form .spoiler-input__input, .compose-form__autosuggest-wrapper, .compose-form__poll-wrapper select, .poll__option input[type=text], .report-dialog-modal__textarea, .search__input, .setting-text, .statuses-grid .detailed-status, .status, .column-inline-form, .column>.scrollable, .error-column, .getting-started, .regeneration-indicator, .compose-form .compose-form__buttons-wrapper, .notification__filter-bar, .account, .navigation-panel hr,.getting-started__trends h4,.account__header__bar,.account__header__bio .account__header__fields, .account__header__fields, .account__header__fields dl {border-color: #eff3f4;}
+
+.search__input {border-radius: 25px;padding: 15px 40px 15px 25px;}
+
+.column-header {border: 0;}
+
+.scrollable {border-top-width: 1px !important;border-top-style: solid !important;border-top-left-radius: 8px;border-top-right-radius: 8px;}
+
+.column-link {font-size: 18px;font-weight: 100;}
+
+.compose-form .autosuggest-textarea__suggestions, .compose-form .compose-form__buttons-wrapper, .search__input {background-color: #f5f7f9;}
+
+.compose-form .compose-form__buttons-wrapper {}
+
+.button {border-radius: 20px;padding: 8px 20px;font-size: 16px;}
+
+.columns-area__panels__main {max-width: 660px;}
+
+.reply-indicator__content, .status__content {font-size: 15px;line-height: 23px;}
+
+.icon-button {color: #536471;}
+
+.column-link--transparent.active {font-weight: 500;}
+
+.column-header>button {font-weight: 600;font-size: 20px;}
+
+
+.account__section-headline a.active, .account__section-headline button.active, .notification__filter-bar a.active, .notification__filter-bar button.active {font-weight: 900;}
+
+.account__section-headline a, .account__section-headline button, .notification__filter-bar a, .notification__filter-bar button {font-weight: 100;}
+
+.account__section-headline button, .notification__filter-bar button, .account__section-headline, .notification__filter-bar {background-color: #fff;}
+
+.account__section-headline, .notification__filter-bar,.account__section-headline, .notification__filter-bar,.account__header__tabs__buttons .icon-button, .column-back-button, .column-header {border: 0;}
+
+
+.status {border-bottom: 0;border-top: 1px solid #eff3f4;}
+
+.account__header__image {height: 320px;}
+
+.account__avatar {border-radius: 100%;}
+
+.account__header__fields dd, .account__header__fields dt {text-align: left;}
+
+.icon-with-badge__badge {color: #fff;border-radius: 100%;}
