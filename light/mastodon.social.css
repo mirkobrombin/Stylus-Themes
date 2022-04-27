@@ -27,7 +27,6 @@ body,
 
 .column-header>button {font-weight: 600;font-size: 20px;}
 
-
 .account__section-headline a.active, .account__section-headline button.active, .notification__filter-bar a.active, .notification__filter-bar button.active {font-weight: 900;}
 
 .account__section-headline a, .account__section-headline button, .notification__filter-bar a, .notification__filter-bar button {font-weight: 100;}
@@ -36,8 +35,7 @@ body,
 
 .account__section-headline, .notification__filter-bar,.account__section-headline, .notification__filter-bar,.account__header__tabs__buttons .icon-button, .column-back-button, .column-header {border: 0;}
 
-
-.status {border-bottom: 0;border-top: 1px solid #eff3f4;}
+.status {border-bottom: 0;}
 
 .account__header__image {height: 320px;}
 
