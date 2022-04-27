@@ -44,3 +44,5 @@ body,
 .account__header__fields dd, .account__header__fields dt {text-align: left;}
 
 .icon-with-badge__badge {color: #fff;border-radius: 100%;}
+
+.notification *, .status__wrapper *, .display-name__account,.navigation-bar__profile-account {font-size: 16px;line-height: 26px;}
