@@ -21,3 +21,9 @@
 .btn-sm { padding: 3px 9px; }
 
 .Box-row { padding: 12px; }
+
+.TimelineItem {padding: 10px 0;}
+
+.timeline-comment-header-text {padding-top: 6px;padding-bottom: 6px;}
+
+.gh-header.issue .gh-header-meta { margin-bottom: 8px; }
