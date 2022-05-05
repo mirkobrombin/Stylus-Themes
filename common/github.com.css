@@ -1,10 +1,21 @@
-/* 
-    Revert the old font-family in GitHub 
-    ----
-    - less huge
-    - less weird
-    - less..
-*/
-body {
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
-}
+.Header {padding: 12px;}
+
+.Header .octicon {width: 24px;}
+
+.Box-header { max-height: 40px; padding: 8px 10px; }
+
+.p-2 { padding: 6px !important; }
+
+.p-3 { padding: 12px !important; }
+
+.p-4 { padding: 16px !important; }
+
+.py-3 { padding-top: 11px !important; padding-bottom: 8px !important; }
+
+.pt-3 { padding-top: 12px !important; }
+
+.my-3 { margin-top: 14px !important; margin-bottom: 10px !important; }
+
+.btn-sm { padding: 3px 9px; }
+
+.Box-row { padding: 12px; }
