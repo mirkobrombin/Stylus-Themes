@@ -4,6 +4,8 @@
 
 .Box-header { max-height: 40px; padding: 8px 10px; }
 
+.Box-body { padding: 10px 12px; }
+
 .p-2 { padding: 6px !important; }
 
 .p-3 { padding: 12px !important; }
